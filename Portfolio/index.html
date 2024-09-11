@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+    <link rel="icon" href="assets/icon.png">
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "nqq40o191p");
+  </script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">Portfolio</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#review">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="assets/CV.pdf" download="">Download CV</a></li>
+      </ul>
+      <div class="nav__btn">
+        <a href="assets/CV.pdf" download="">Download CV</a>
+      </div>
+    </nav>
+
+    <header class="section__container header__container" id="about">
+      <div class="header__image">
+        <img src="assets/header.png" alt="header" />
+      </div>
+      <div class="header__content">
+        <p class="section__subheader">Hello</p>
+        <h1>Myself <span>Dominic Raj</span> and I'm a <span>Full Stack Developer</span></h1>
+        <p class="section__description">
+            Motivated and detail-oriented entry-level of full stack developer with a strong foundation in both front-end and back-end technologies. Passionate about building responsive web applications and continuously learning new skills. Eager to contribute to a dynamic development team.
+        </p>
+        <div class="header__btns">
+          <div class="btn"><a href="#contact">Contact Me</a></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container stats__container">
+      <div class="stats__card">
+        <h4>5+</h4>
+        <p>Satisfied clients</p>
+      </div>
+      <div class="stats__divider"></div>
+      <div class="stats__card">
+        <h4>5+</h4>
+        <p>Project completed</p>
+      </div>
+      <div class="stats__divider"></div>
+      <div class="stats__card">
+        <h4>5+</h4>
+        <p>Reviews given</p>
+      </div>
+    </section>
+
+    <section class="section__container skill__container" id="skill">
+      <div class="skill__content">
+        <p class="section__subheader">My Skills</p>
+        <h2 class="section__header">
+          Why Hire Me For Your Next <span>Project?</span>
+        </h2>
+        <p class="section__description">
+          To obtain a Full Stack Developer position in a dynamic company where I can utilize my skills in both front-end and back-end development, contribute to innovative projects, and grow within the organization.
+        </p>
+        <div class="skill__btn">
+          <button class="btn"><a href="#contact">Hire Me</a></button>
+        </div>
+      </div>
+      <div class="skill__grid">
+        <div class="skill__card">
+          <span><i class="ri-pulse-line"></i></span>
+          <h4>Technical Skills</h4>
+          <p>
+            Html, Css, Java-Script, Bootstrap-5, React-Js, Node-Js, Mango-DB,
+            Git, GitHub, Ui Design.
+          </p>
+        </div>
+        <div class="skill__card">
+          <span><i class="ri-pencil-ruler-2-line"></i></span>
+          <h4>Soft Skills</h4>
+          <p>
+            Project-Management, Problem-Solving, Communication, Time-Management.
+          </p>
+        </div>
+        <div class="skill__card">
+          <span><i class="ri-graduation-cap-line"></i></span>
+          <h4>Tools Known</h4>
+          <p>
+            Figma, Adobe-Illustrator, Adobe-XD, Adobe-Photoshop, VS-Code.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio__container" id="portfolio">
+      <div class="portfolio__content">
+        <p class="section__subheader">Portfolio</p>
+        <h2 class="section__header">
+          My <span>Projects</span>
+        </h2>
+        <p class="section__description">
+          Here are the projects that I completed. Most of the projects have a visual. Each project connects regarding the topic, ideas and concepts.
+        </p>
+        <div class="portfolio__btn">
+          <button class="btn"><a href="https://github.com/Dominic0108" target="_blank">Show More</a></button>
+        </div>
+      </div>
+      <div class="portfolio__image__wrapper">
+        <div class="portfolio__image">
+          <img src="assets/portfolio-1.png" alt="portfolio" />
+          <img src="assets/portfolio-2.png" alt="portfolio" />
+          <img src="assets/portfolio-3.png" alt="portfolio" />
+          <img src="assets/portfolio-4.png" alt="portfolio" />
+          <img src="assets/portfolio-5.png" alt="portfolio" />
+          <img src="assets/portfolio-6.png" alt="portfolio" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container review__container" id="review">
+      <p class="section__subheader">Reviews</p>
+      <h2 class="section__header">
+        My Customers Say Something <span>About Me</span>
+      </h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="review__card">
+              <div class="review__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>
+                I recently had the pleasure of working with dominic for the creation of a logo for my business,
+                 and I'm very happy with the results.
+              </p>
+              <div class="review__details">
+                <img src="assets/review-1.png" alt="review"/>
+                <div>
+                  <h4>Kishore</h4>
+                  <h5>Entrepreneur</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review__card">
+              <div class="review__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>
+                I highly recommend dominic to anyone in need of top-notch portfolio design services.
+                 I will definitely be returning for future design needs.
+              </p>
+              <div class="review__details">
+                <img src="assets/review-2.png" alt="review" />
+                <div>
+                  <h4>Bharath</h4>
+                  <h5>College Student</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review__card">
+              <div class="review__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>
+                I recently done my final year calculator project from dominic,
+                 and I am thoroughly impressed by the quality and innovation displayed.
+              </p>
+              <div class="review__details">
+                <img src="assets/review-3.png" alt="review" />
+                <div>
+                  <h4>Joshwin</h4>
+                  <h5>College Student</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review__card">
+              <div class="review__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>
+                I did my final year projects with dominic,
+                 and I am incredibly impressed by the quality and creativity on display.
+              </p>
+              <div class="review__details">
+                <img src="assets/review-4.png" alt="review" />
+                <div>
+                  <h4>Aju Jaffrin</h4>
+                  <h5>College Student</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="review__card">
+              <div class="review__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>
+                Thank You for your Logo Design work, it's really nice and catchy, also am so happy with your service. 
+              </p>
+              <div class="review__details">
+                <img src="assets/review-5.png" alt="review" />
+                <div>
+                  <h4>Lakhsaya</h4>
+                  <h5>Entrepreneur</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container contact__container" id="contact">
+      <p class="section__subheader">Contact</p>
+      <h2 class="section__header">Let's <span>Discuss</span></h2>
+      <p class="section__description">
+        Whether you need a new website, a redesign, or custom functionality,
+        let's collaborate to create something amazing.
+      </p>
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="d2a5fc2f-2e93-4478-ba3a-d41c6b07878f">
+        <input type="text" name="name" placeholder="Full name" required/>
+        <input type="email" name="email" placeholder="Your email" required/>
+        <input type="number" name="number" placeholder="Phone number" required/>
+        <input type="text" name="text" placeholder="Subject" required/>
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button class="btn" type="submit">Submit Message</button>
+      </form>
+    </section>
+
+    <footer class="section__container footer__container">
+      <p>Copyright © 2024 Dominic Raj. All rights reserved.</p>
+      <ul class="footer__socials">
+        <li>
+          <a href="https://www.instagram.com/domzhhh?igsh=YXdiYWVxNzJydWlz" target="_blank"><i class="ri-instagram-fill"></i></a>
+        </li>
+        <li>
+          <a href="https://github.com/Dominic0108" target="_blank"><i class="ri-github-fill"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/dominicraj0108" target="_blank"><i class="ri-linkedin-fill"></i></a>
+        </li>
+        <li>
+          <a href="https://wa.me/qr/DJM63ZOX7BN7E1" target="_blank"><i class="ri-whatsapp-fill"></i></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
